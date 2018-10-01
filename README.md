@@ -4,10 +4,15 @@
 ### Methodology:
 
 1. Take multi-view stereo image of an object from multiple angles.
+<img src="https://user-images.githubusercontent.com/12294956/46274658-d0395b00-c577-11e8-99a7-0880e346d6c7.png">
+
 2. Increasing the resolution of these stereo images (using OpenCV set() method with defined CAP_PROP_FRAME_WIDTH and CAP_PROP_FRAME_HEIGHT values).
 3. Calibrating all the cameras individually
 4. Calculating a depth map - load the claiberations and undistort the images (Computes the ideal point coordinates from the observed point coordinates).
+<img src="https://user-images.githubusercontent.com/12294956/46274657-d0395b00-c577-11e8-976f-b6e8e88d6d64.png">
+
 5. From depth map, generate point cloud
+<img src="https://user-images.githubusercontent.com/12294956/46274656-cfa0c480-c577-11e8-90d6-d453f0930e2c.png">
 6. From point cloud generate 3D model
 7. Optimise and clean the generated 3D model manually with 3D model editing tools.
 
@@ -25,8 +30,6 @@ A point cloud is a set of data points in space. Point clouds are generally  larg
 
 ### Implementations
 Independently implementation examples are provided for your reference.
-<img src="https://user-images.githubusercontent.com/12294956/46274656-cfa0c480-c577-11e8-90d6-d453f0930e2c.png">
-<img src="https://user-images.githubusercontent.com/12294956/46274657-d0395b00-c577-11e8-976f-b6e8e88d6d64.png">
-<img src="https://user-images.githubusercontent.com/12294956/46274658-d0395b00-c577-11e8-99a7-0880e346d6c7.png">
+
 
 
