@@ -15,7 +15,7 @@
 <img src="https://user-images.githubusercontent.com/12294956/46274656-cfa0c480-c577-11e8-90d6-d453f0930e2c.png">
 6. From point cloud generate 3D model
 7. Optimise and clean the generated 3D model manually with 3D model editing tools.
-<img src="https://user-images.githubusercontent.com/12294956/46282066-287b5780-c58e-11e8-82b4-a99a7c5853f1.gif">
+<img src="https://user-images.githubusercontent.com/12294956/46282066-287b5780-c58e-11e8-82b4-a99a7c5853f1.gif" width="400" height="400">
 
 ### Terminology used:
 
@@ -31,5 +31,5 @@ A point cloud is a set of data points in space. Point clouds are generally  larg
 ### Implementations
 Independently implementation examples are provided for your reference.
 
-
+Image-source:https://carla.readthedocs.io
 
